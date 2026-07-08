@@ -1,0 +1,17 @@
+{
+  "name": "temp-voice-bot",
+  "version": "1.0.0",
+  "description": "بوت غرف صوتية مؤقتة (Temp Voice) بتحكم كامل عبر Components v2 - مستوحى من TempVoicePro",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "deploy": "node deploy-commands.js"
+  },
+  "dependencies": {
+    "@discordjs/voice": "^0.19.2",
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.5",
+    "tweetnacl": "^1.0.3"
+  },
+  "license": "MIT"
+}
